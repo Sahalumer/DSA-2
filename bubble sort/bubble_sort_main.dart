@@ -6,4 +6,8 @@ void main() {
   print("Before the Basic Bubble sort $baseList");
   bubbleSortFunctions.basicBubbleSort(baseList);
   print("After the Basic Bubble sort $baseList");
+  List<int> recurList = [25, 11, 44, 21, 35, 64, 81, 28];
+  print("Before the recursive Bubble sort $recurList");
+  bubbleSortFunctions.recursiveBubbleSort(recurList, recurList.length);
+  print("After the recursive Bubble sort $recurList");
 }
